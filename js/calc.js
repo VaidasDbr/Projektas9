@@ -30,21 +30,21 @@ let counterC = 0;
 
 b1DOM.addEventListener('click', (event) => {
     event.preventDefault();
-    if (counter < 9999999999999) {
+    if (counter < 99999999999) {
     counter += 1;
     numberDOM.textContent = counter;
     counter *= 10;}
 });
 b2DOM.addEventListener('click', (event) => {
     event.preventDefault();
-    if (counter < 9999999999999) {
+    if (counter < 99999999999) {
     counter += 2;
     numberDOM.textContent = counter;
     counter *= 10;}
 });
 b3DOM.addEventListener('click', (event) => {
     event.preventDefault();
-    if (counter < 9999999999999) {
+    if (counter < 99999999999) {
     counter += 3;
     numberDOM.textContent = counter;
     counter *= 10;}
@@ -56,21 +56,21 @@ b4DOM.addEventListener('click', (event) => {
 });
 b5DOM.addEventListener('click', (event) => {
     event.preventDefault();
-    if (counter < 9999999999999) {
+    if (counter < 99999999999) {
     counter += 4;
     numberDOM.textContent = counter;
     counter *= 10;}
 });
 b6DOM.addEventListener('click', (event) => {
     event.preventDefault();
-    if (counter < 9999999999999) {
+    if (counter < 99999999999) {
     counter += 5;
     numberDOM.textContent = counter;
     counter *= 10;}
 });
 b7DOM.addEventListener('click', (event) => {
     event.preventDefault();
-    if (counter < 9999999999999) {
+    if (counter < 99999999999) {
     counter += 6;
     numberDOM.textContent = counter;
     counter *= 10;}
@@ -82,21 +82,21 @@ b8DOM.addEventListener('click', (event) => {
 });
 b9DOM.addEventListener('click', (event) => {
     event.preventDefault();
-    if (counter < 9999999999999) {
+    if (counter < 99999999999) {
     counter += 7;
     numberDOM.textContent = counter;
     counter *= 10;}
 });
 b10DOM.addEventListener('click', (event) => {
     event.preventDefault();
-    if (counter < 9999999999999) {
+    if (counter < 99999999999) {
     counter += 8;
     numberDOM.textContent = counter;
     counter *= 10;}
 });
 b11DOM.addEventListener('click', (event) => {
     event.preventDefault();
-    if (counter < 9999999999999) {
+    if (counter < 99999999999) {
     counter += 9;
     numberDOM.textContent = counter;
     counter *= 10;}
@@ -119,7 +119,7 @@ b13DOM.addEventListener('click', (event) => {
 });
 b14DOM.addEventListener('click', (event) => {
     event.preventDefault();
-    if (counter < 9999999999999) {
+    if (counter < 99999999999) {
     counter += 0;
     numberDOM.textContent = counter;
     counter *= 10;}
@@ -139,7 +139,7 @@ b15DOM.addEventListener('click', (event) => {
         counterS = counterDL / (counter/10);
 
     }
-    if (counterS > 9999999999999) {
+    if (counterS > 99999999999) {
         counterS = 0;
     }
     numberDOM.textContent = counterS;
